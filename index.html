@@ -4,66 +4,106 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dasboard Admin</title>
-    <link rel="stylesheet" href="style/style.css" />
     <link rel="stylesheet" href="style/font.css" />
     <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
     <nav>
       <div>
-        <img src="" alt="logo" />
+        <img src="./assets/nav-icon/view-dashboard.svg" alt="logo" />
         <h1>Dashboard</h1>
       </div>
       <ul>
         <li>
-          <a href="#"><img src="" alt="Home" /><span>Home</span></a>
-        </li>
-        <li>
-          <a href="#"><img src="" alt="Profile" /><span>Profile</span></a>
-        </li>
-        <li>
-          <a href="#"><img src="" alt="Messages" /><span>Messages</span></a>
-        </li>
-        <li>
-          <a href="#"><img src="" alt="History" /><span>History</span></a>
-        </li>
-        <li>
-          <a href="#"><img src="" alt="Tasks" /><span>Tasks</span></a>
+          <a href="#" default
+            ><img src="./assets/nav-icon/home.svg" alt="Home" /><span
+              >Home</span
+            ></a
+          >
         </li>
         <li>
           <a href="#"
-            ><img src="" alt="Communities" /><span>Communities</span></a
+            ><img src="./assets/nav-icon/profile.svg" alt="Profile" /><span
+              >Profile</span
+            ></a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><img src="./assets/nav-icon/messages.svg" alt="Messages" /><span
+              >Messages</span
+            ></a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><img src="./assets/nav-icon/history.svg" alt="History" /><span
+              >History</span
+            ></a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><img src="./assets/nav-icon/tasks.svg" alt="Tasks" /><span
+              >Tasks</span
+            ></a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              src="./assets/nav-icon/communities.svg"
+              alt="Communities"
+            /><span>Communities</span></a
           >
         </li>
       </ul>
       <ul>
         <li>
-          <a href="#"><img src="" alt="Settings" /><span>Settings</span></a>
+          <a href="#"
+            ><img src="./assets/nav-icon/settings.svg" alt="Settings" /><span
+              >Settings</span
+            ></a
+          >
         </li>
         <li>
-          <a href="#"><img src="" alt="Support" /><span>Support</span></a>
+          <a href="#"
+            ><img src="./assets/nav-icon/support.svg" alt="Support" /><span
+              >Support</span
+            ></a
+          >
         </li>
         <li>
-          <a href="#"><img src="" alt="Privacy" /><span>Privacy</span></a>
+          <a href="#"
+            ><img src="./assets/nav-icon/privacy.svg" alt="Privacy" /><span
+              >Privacy</span
+            ></a
+          >
         </li>
       </ul>
     </nav>
     <div id="content">
       <header>
         <div id="search">
-          <img src="" alt="icon-search" />
-          <div></div>
+          <img src="./assets/content-icon/magnify.svg" alt="icon-search" />
+          <input type="text" />
         </div>
         <div id="profil-control">
-          <img src="" alt="icon-bell" />
-          <img src="" alt="profil-control-image" />
-          <span>Morgan Oakley</span>
+          <button>
+            <img
+              src="./assets/content-icon/bell-ring-outline.svg"
+              alt="icon-bell"
+            />
+          </button>
+          <img src="./assets/avatar/avataaars.png" alt="profil-control-image" />
+          <span>Budi Van Lopez</span>
         </div>
         <div id="profil-info">
-          <img src="" alt="profil-info-image" />
+          <img src="./assets/avatar/avataaars.png" alt="profil-info-image" />
           <div>
-            <span>Hi there</span>
-            <span>Morgan Oakley (@morgan)</span>
+            <span>Hi there,</span>
+            <span>Budi Van Lopez (@buvalo)</span>
           </div>
         </div>
         <div id="action-control">
@@ -76,7 +116,191 @@
         <div id="projects">
           <h2>Your Projects</h2>
           <div>
-            <div class="project-card"></div>
+            <div class="project-card">
+              <div>
+                <h3>Super Cool Project</h3>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, or randomised words which don't look
+                  even slightly believable.
+                </p>
+              </div>
+              <div>
+                <button>
+                  <img
+                    src="./assets/content-icon/star-plus-outline.svg"
+                    alt="add-star"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./assets/content-icon/eye-plus-outline.svg"
+                    alt="add-star"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./assets/content-icon/source-fork.svg"
+                    alt="add-star"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="project-card">
+              <div>
+                <h3>Less Cool Project</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                  vitae luctus est. Suspendisse potenti. Integer semper ultrices
+                  pellentesque. Suspendisse sed rutrum ligula. Mauris tempus
+                  varius turpis nec auctor. Sed at.
+                </p>
+              </div>
+              <div>
+                <button>
+                  <img
+                    src="./assets/content-icon/star-plus-outline.svg"
+                    alt="add-star"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./assets/content-icon/eye-plus-outline.svg"
+                    alt="add-star"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./assets/content-icon/source-fork.svg"
+                    alt="add-star"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="project-card">
+              <div>
+                <h3>Impossible App</h3>
+                <p>
+                  The standard chunk of Lorem Ipsum used since the 1500s is
+                  reproduced below for those interested. Sections 1.10.32 and
+                  1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are
+                  also reproduced in their exact original form, accompanied by
+                  English versions from the 1914 translation by H. Rackham.
+                </p>
+              </div>
+              <div>
+                <button>
+                  <img
+                    src="./assets/content-icon/star-plus-outline.svg"
+                    alt="add-star"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./assets/content-icon/eye-plus-outline.svg"
+                    alt="add-star"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./assets/content-icon/source-fork.svg"
+                    alt="add-star"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="project-card">
+              <div>
+                <h3>Easy Peasy App</h3>
+                <p>
+                  Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
+                  Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+                  Cicero, written in 45 BC.
+                </p>
+              </div>
+              <div>
+                <button>
+                  <img
+                    src="./assets/content-icon/star-plus-outline.svg"
+                    alt="add-star"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./assets/content-icon/eye-plus-outline.svg"
+                    alt="add-star"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./assets/content-icon/source-fork.svg"
+                    alt="add-star"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="project-card">
+              <div>
+                <h3>Ad Blocker</h3>
+                <p>
+                  It was popularised in the 1960s with the release of Letraset
+                  sheets containing Lorem Ipsum passages, and more recently with
+                  desktop publishing software like Aldus PageMaker including
+                  versions of Lorem Ipsum.
+                </p>
+              </div>
+              <div>
+                <button>
+                  <img
+                    src="./assets/content-icon/star-plus-outline.svg"
+                    alt="add-star"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./assets/content-icon/eye-plus-outline.svg"
+                    alt="add-star"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./assets/content-icon/source-fork.svg"
+                    alt="add-star"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="project-card">
+              <div>
+                <h3>Money Maker</h3>
+                <p>
+                  The point of using Lorem Ipsum is that it has a more-or-less
+                  normal distribution of letters, as opposed to using 'Content
+                  here, content here', making it look like readable English
+                </p>
+              </div>
+              <div>
+                <button>
+                  <img
+                    src="./assets/content-icon/star-plus-outline.svg"
+                    alt="add-star"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./assets/content-icon/eye-plus-outline.svg"
+                    alt="add-star"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./assets/content-icon/source-fork.svg"
+                    alt="add-star"
+                  />
+                </button>
+              </div>
+            </div>
           </div>
         </div>
         <div id="announcements">
@@ -93,17 +317,16 @@
             <div>
               <h3>Community Share Day</h3>
               <p>
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It has roots in a piece of classical Latin literature from
-                45 BC, making it over 2000 years old.
+                Various versions have evolved over the years, sometimes by
+                accident, sometimes on purpose (injected humour and the like).
               </p>
             </div>
             <div>
               <h3>Upload Privacy Policy</h3>
               <p>
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It has roots in a piece of classical Latin literature from
-                45 BC, making it over 2000 years old.
+                It uses a dictionary of over 200 Latin words, combined with a
+                handful of model sentence structures, to generate Lorem Ipsum
+                which looks reasonable
               </p>
             </div>
           </div>
@@ -111,9 +334,34 @@
         <div id="trending">
           <h2>Trending</h2>
           <div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div>
+              <img src="./assets/avatar/avataaars(1).png" alt="avatar-1" />
+              <div>
+                <span>@syinrr</span>
+                <span>World Peace Builder</span>
+              </div>
+            </div>
+            <div>
+              <img src="./assets/avatar/avataaars(2).png" alt="avatar-2" />
+              <div>
+                <span>@landskrr</span>
+                <span>Super Cool Project</span>
+              </div>
+            </div>
+            <div>
+              <img src="./assets/avatar/avataaars(3).png" alt="avatar-3" />
+              <div>
+                <span>@windsyll</span>
+                <span>Life Changing App</span>
+              </div>
+            </div>
+            <div>
+              <img src="./assets/avatar/avataaars(4).png" alt="avatar-4" />
+              <div>
+                <span>@alexrahmadi</span>
+                <span>No Traffic Maker</span>
+              </div>
+            </div>
           </div>
         </div>
       </main>
